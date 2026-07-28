@@ -1,4 +1,5 @@
 # Install Attach & Discount Leakage Analysis — Case Study
+🔗 **[Live App](https://install-attach-discount-case-study-2qcgxrbrgeatjtvvxmngtj.streamlit.app)** — interactive dashboard + AI copilot, running on the same synthetic data as the static case study below.
 
 **A synthetic, fully-fabricated recreation of a real enterprise analysis: reconstructing where a hybrid-cloud software company's installation revenue and margin were actually leaking — and catching two analytical mistakes along the way that would have understated the problem by more than half.**
 
