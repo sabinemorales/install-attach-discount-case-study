@@ -5,6 +5,18 @@
 
 All company names, product names, SKU codes, regions, partners, and dollar figures below are synthetic, generated to reproduce the *statistical shape* of a real analysis without using any real company's data.
 
+## Screenshots
+
+Screenshots of the Streamlit dashboard in this repository, running on the synthetic dataset from `generate_data.py`. The metrics and charts are computed by `analysis.py`.
+
+![Overview](screenshots/overview.png)
+
+*Overview. Figures come from the synthetic dataset.*
+
+![Attach rate by region](screenshots/attach_rate_by_region.png)
+
+*Attach rate by region. Figures come from the synthetic dataset.*
+
 ## The scenario
 
 **Solstice Cloud Systems** sells **Aurora**, a hybrid-cloud management platform, through a mix of direct and partner-led channels. Three things are sold together but tracked separately: the software license, an installation/deployment service ("Aurora Professional Services"), and an ongoing support contract ("Aurora Care").
@@ -47,3 +59,7 @@ This isn't a "look, I can build a dashboard" project. It's a record of an actual
 - Every total is formula-driven off raw detail tabs, not pasted as a static result — change an assumption, everything recalculates
 - Estimation methods are presented with their honest limitations (sample sizes, R², "directional not committed") rather than a single confident-sounding number
 - Real bugs were caught and fixed during the actual build this is modeled on: a sign-convention error, a dataframe indexing gap, a divide-by-zero — the discipline was catching these *before* shipping, not assuming a clean formula recalculation meant a correct one
+
+## License
+
+This project is released under the [MIT License](LICENSE).
